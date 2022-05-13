@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" href="./assets/logo2.webp" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Document</title>
-    <script defer="defer" src="main.f359b6229c5be1bd0702.js"></script>
-    <link href="main.527141737f2fba384ce3.css" rel="stylesheet" />
+    <title>ITTLA | TEC-SEG</title>
+    <script defer="defer" src="main.cf249c3c6d3ace8c7fdc.js"></script>
+    <link href="main.c6fdfa9e76ac9c412708.css" rel="stylesheet" />
   </head>
   <body>
     <div class="back"></div>
@@ -19,10 +20,10 @@
           </div>
           <nav id="nav">
             <ul>
-              <li><a href="/" target="_blank" rel="noopener">Inicio</a></li>
-              <li><a href="#news" target="_blank" rel="noopener">Noticias</a></li>
-              <li><a href="#unit3" target="_blank" rel="noopener">Unidad 3</a></li>
-              <li><a href="#unit4" target="_blank" rel="noopener">unidad 4</a></li>
+              <li><a href="/">Inicio</a></li>
+              <li><a href="#news">Noticias</a></li>
+              <li><a href="#unit3">Unidad 3</a></li>
+              <li><a href="#unit4">unidad 4</a></li>
             </ul>
           </nav>
         </div>
@@ -40,7 +41,6 @@
               <img src="./assets/nt1.webp" alt="noticia1" />
               <a
                 href="https://www.dw.com/es/alemania-cibercriminalidad-en-tiempos-de-guerra-en-ucrania/a-61740994"
-                target="_blank" rel="noopener"
                 >Alemania: cibercriminalidad en tiempos de guerra en Ucrania</a
               >
               <blockquote
@@ -58,7 +58,6 @@
               <img src="./assets/nt2.webp" alt="noticia1" />
               <a
                 href="https://esemanal.mx/2022/05/ciberseguridad-con-el-enemigo-en-casa/"
-                target="_blank" rel="noopener"
                 >Costa Rica desactiva plataformas digitales tras ataques
                 cibernéticos</a
               >
@@ -78,22 +77,19 @@
           <h3 class="title">Unidad 3</h3>
           <div class="container_main_news_gif"></div>
           <div class="container_main_s2_projects">
-              <a href="https://owasp.org/www-project-top-ten/">
-                <img src="./assets/code.webp" class="codeImage" alt="owasp"/>
-              </a>
+            <img src="./assets/code.webp" class="codeImage" alt="" />
             <div>
               <h3>Trabajos</h3>
               <h4>3.2 Controles en Aplicaciones en desarrollo</h4>
-              <a href="./MandujanoGarciaS-3_2.pdf"
-              target="_blank" rel="noopener"
-                ><img src="./assets/dd.webp" alt="download" class="download"
+              <a href="./assets/MandujanoGarciaS-3_2.pdf"
+                ><img src="./assets/dd.webp" alt="" class="download"
               /></a>
             </div>
           </div>
         </section>
         <section class="container_main_s2" id="unit4">
           <h3 class="title">Unidad 4</h3>
-          <img src="./assets/ciber3.webp" alt="incoming" />
+          <img src="./assets/ciber3.webp" alt="" />
           <h3 class="title">Esperalo muy pronto....</h3>
         </section>
       </main>
@@ -111,8 +107,21 @@
         </div>
         <span>Copyright &copy; 2022 Instituto Tecnológico de Tlalnepantla</span>
         <span>Todos los Derechos Reservados</span>
-        <span class="mt-5">Aviso de privacidad</span>
+        <a href="./assets/avisos.pdf" class="mt-5 aviso" target="_blank" rel="noopener">Aviso de privacidad</a>
       </footer>
+    </div>
+    <button id="btnModal" class="hideen">Abrir modal</button>
+    <div id="myModal" class="modalContainer">
+      <div class="modal-content">
+        <span class="close">×</span>
+        <h2>Bienvenido a la materia de tecnologías de seguridad en software</h2>
+        <p>
+          Porfavor acepte las cokies para una mejor experiencia de usuario, para
+          mayor informacion, consulte nuestro aviso de privacidad
+        </p>
+        <a href="./assets/avisos.pdf" class="aviso" target="_blank" rel="noopener">Ir a aviso de privacidad</a
+        ><br /><button class="btn-accept">Aceptar</button>
+      </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="./js/gsap.js"></script>

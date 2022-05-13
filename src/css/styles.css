@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+img{
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+}
 .mt-5 {
   margin-top: 20px;
 }
@@ -331,5 +339,69 @@ body {
     width: 125px;
   }
 }
+
+.hideen{
+  display: none;
+}
+
+.modalContainer {
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.modalContainer .modal-content {
+  background-color: #fefefe00;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-top: 10px solid #16b7fd;
+  width: 70%;
+  
+}
+
+.modalContainer .close {
+  color: #aaaaaacb;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.modalContainer .close:hover,
+.modalContainer .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.btn-accept{
+background-color: #16b7fd;
+border: none;
+border-radius: 20px;
+width: 180px;
+height: 30px;
+margin-top: 20px;
+}
+.aviso{
+  text-decoration: none;
+  color: white;
+  transition: all 300ms;
+}
+
+.aviso:hover{
+  color: #16b7fd;
+}
+
 
 /*# sourceMappingURL=styles.css.map */
